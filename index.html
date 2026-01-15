@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sortify - An Algorithm Learning Platform</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <h1>Sortify</h1>
+      <ul>
+        <li onclick="loadModule('sorting')">SORTING</li>
+        <li onclick="loadModule('searching')">SEARCHING</li>
+        <li onclick="loadModule('trees')">TREES</li>
+        <li onclick="loadModule('linkedlist')">LINKED LIST</li>
+        <li onclick="loadModule('graph')">GRAPH</li>
+        <li onclick="loadModule('stack')">STACK</li>
+        <li onclick="loadModule('queue')">QUEUE</li>
+      </ul>
+    </aside>
+
+    <main class="main-content">
+      <div id="module-content">
+        <h2>Welcome</h2>
+        <p>Select a module from the menu to begin.</p>
+      </div>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="modules/sorting.js"></script>
+  <script src="modules/searching.js"></script>
+  <script src="modules/trees.js"></script>
+  <script src="modules/linkedlist.js"></script>
+  <script src="modules/graph.js"></script>
+  <script src="modules/stack.js"></script>
+  <script src="modules/queue.js"></script>
+</body>
+</html>
